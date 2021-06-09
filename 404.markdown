@@ -3,6 +3,6 @@ layout: default
 permalink: /404.html
 ---
 
-this is a test. insert something cool later. 
+this is a test 404 file. insert something cool later. 
 
 ideas right now are jokes about bit flips or wavefunction collapse, what do you think?
