@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Making This Site!"
 date:   2021-06-09 00:55:28 -0400
 categories: site_assembly
