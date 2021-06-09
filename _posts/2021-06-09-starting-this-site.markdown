@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD:_posts/2021-06-09-starting-this-site.markdown
 layout: single
 title:  "Starting This Site!"
-=======
-layout: post
-title:  "Making This Site!"
->>>>>>> parent of c303cd6 (customized to mm):_posts/2021-06-09-making-this-site.markdown
 date:   2021-06-09 00:55:28 -0400
 categories: site_assembly
 ---
