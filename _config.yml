@@ -33,11 +33,13 @@ github_username:  shubhagrawal30
 facebook_username: shubhagrawal30
 
 # Build settings
-# theme: minima
-theme: minimal-mistakes-jekyll
+# # theme: minima
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-include-cache
 
 include: ["_pages"]
 # Exclude from processing.
