@@ -11,6 +11,41 @@ I decided to finally make my personal web space. I plan to take notes and docume
 
 I used [Jekyll][jekyll-gh] and [GitHub Page][github-pages]. The easiest way to set up everything is [this blogpost][blogpost]. 
 
+I did the initial setup using **Mac Terminal**. You first want to install *Xcode* and *Homebrew*. 
+
+
+~~~ Bash 
+xcode-select --install
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+~~~
+
+Then, install *Ruby* and *Ruby Gems*, *NodeJS*, and *Jekyll*.
+
+~~~ Bash 
+brew install ruby
+~~~
+~~~ Bash
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+gem install rubygems-update
+~~~
+~~~ Bash
+brew install node
+usr/local/bin/gem install jekyll
+~~~
+
+Then, setup [GitHub Desktop][github-desktop], and creating a new repository `USERNAME.github.io`. This will make your personal page, hosted by GitHub. 
+
+Then, navigate to the local repository directory using *Terminal*, and run the following to set up *Jekyll*.
+~~~ Bash
+gem install jekyll bundler
+jekyll new .
+~~~
+
+To test website locally, run `bundle exec jekyll serve --watch`{:.bash} and go to `http://127.0.0.1:4000/` or `http://localhost:4000/`. To put it online, commit and push your changes, and you are online at `http://USERNAME.github.io` (yay!).
+
+Posts like this go in `\_posts`, while pages like About go in main, or a `\_pages` subdirectory. There are examples that *Jekyll* pre-made when we initialized it. 
+
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
@@ -34,6 +69,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-talk]: https://talk.jekyllrb.com/ -->
 
-[github-pages]: [https://pages.github.com/]
+[github-pages]: https://pages.github.com/
+[github-desktop]: https://desktop.github.com/
 [blogpost]: https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages
 [jekyll-gh]:   https://github.com/jekyll/jekyll
