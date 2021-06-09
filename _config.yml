@@ -33,8 +33,7 @@ github_username:  shubhagrawal30
 facebook_username: shubhagrawal30
 
 # Build settings
-# theme: minima
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
