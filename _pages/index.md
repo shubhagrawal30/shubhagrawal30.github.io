@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+permalink: /
 ---
 
 Hello There, I see you have stumbled across my page. I am still assembling it, so ones wonder how you are here. Now that you are, if you are curious how assembly is going, check out my posts.

@@ -55,6 +55,17 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -75,3 +86,25 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+author:
+  name: "Shubh Agrawal"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "I am a person." # Note: Markdown is allowed
+  location: "Pasadena, CA"
+  links:
+    - label: "School Email"
+      icon: "fas fa-fw fa-paper-plane"
+      url: "mailto:shubh@caltech.edu"
+    - label: "Personal Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:shubhagrawal30@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/shubhagrawal30"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/shubhagrawal30"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-messenger"
+      url: "https://facebook.com/shubhagrawal30"
