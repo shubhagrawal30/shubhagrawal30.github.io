@@ -33,13 +33,11 @@ github_username:  shubhagrawal30
 facebook_username: shubhagrawal30
 
 # Build settings
-# theme: minima
-theme: minimal-mistakes-jekyll
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-include: ["_pages"]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
