@@ -92,7 +92,7 @@ defaults:
 author:
   name: "Shubh Agrawal"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am a person." # Note: Markdown is allowed
+  bio: "Hi!" # Note: Markdown is allowed
   location: "Pasadena, CA"
   links:
     - label: "School Email"
