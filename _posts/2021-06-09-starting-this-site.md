@@ -14,35 +14,42 @@ I used [Jekyll][jekyll-gh] and [GitHub Page][github-pages]. The easiest way to s
 I did the initial setup using **Mac Terminal**. You first want to install *Xcode* and *Homebrew*. 
 
 
-~~~ Bash 
+```
 xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-~~~
+```
+{: .language-bash}
 
 Then, install *Ruby* and *Ruby Gems*, *NodeJS*, and *Jekyll*.
 
-~~~ Bash 
+```
 brew install ruby
-~~~
-~~~ Bash
+```
+{: .language-bash}
+
+```
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 source ~/.bash_profile
 gem install rubygems-update
-~~~
-~~~ Bash
+```
+{: .language-bash}
+
+```
 brew install node
 usr/local/bin/gem install jekyll
-~~~
+```
+{: .language-bash}
 
 Then, setup [GitHub Desktop][github-desktop], and creating a new repository `USERNAME.github.io`. This will make your personal page, hosted by GitHub. 
 
 Then, navigate to the local repository directory using *Terminal*, and run the following to set up *Jekyll*.
-~~~ Bash
+```
 gem install jekyll bundler
 jekyll new .
-~~~
+```
+{: .language-bash}
 
-To test website locally, run `bundle exec jekyll serve --watch`{:.bash} and go to `http://127.0.0.1:4000/` or `http://localhost:4000/`. To put it online, commit and push your changes, and you are online at `http://USERNAME.github.io` (yay!).
+To test website locally, run ```bundle exec jekyll serve --watch```{: .language-bash} and go to `https://127.0.0.1:4000/` or `https://localhost:4000/`. To put it online, commit and push your changes, and you are online at `https://USERNAME.github.io` (yay!).
 
 Posts like this go in `\_posts`, while pages like About go in main, or a `\_pages` subdirectory. There are examples that *Jekyll* pre-made when we initialized it. 
 
