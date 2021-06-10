@@ -125,8 +125,6 @@ author:
       icon: "fab fa-fw fa-facebook-messenger"
       url: "https://facebook.com/shubhagrawal30"
 
-google_analytics: "G-2Z5GNVG4N3"
-
 analytics:
   provider: "google-gtag"
   google:
