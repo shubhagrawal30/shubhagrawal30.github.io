@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Google Analytics
-category: draft
+category: site_assembly
 date: 2021-06-10 11:14 -0400
 ---
 
