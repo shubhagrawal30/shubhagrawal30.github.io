@@ -67,7 +67,8 @@ defaults:
       comments: true
       share: true
 
-  
+jekyll_compose:
+  auto_open: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
