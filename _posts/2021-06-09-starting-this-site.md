@@ -5,9 +5,7 @@ date:   2021-06-09 00:55:28 -0400
 categories: site_assembly
 ---
 
-So, this is my ever first post! 
-
-I decided to finally make my personal web space. I plan to take notes and document how I make this, for myself and for anyone who wants to start their own site.
+So, this is my ever first post! I decided to finally make my personal web space. I plan to take notes and document how I make this, for myself and for anyone who wants to start their own site.
 
 I used [Jekyll][jekyll-gh] and [GitHub Pages][github-pages]. The easiest way to set up everything is [this blogpost][blogpost]. 
 
