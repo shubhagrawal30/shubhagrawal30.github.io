@@ -126,7 +126,7 @@ author:
       url: "https://facebook.com/shubhagrawal30"
 
 analytics:
-  provider: "google-gtag"
+  provider: "google"
   google:
     tracking_id: "G-2Z5GNVG4N3"
     anonymize_ip: false # default
