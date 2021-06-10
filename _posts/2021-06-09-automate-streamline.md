@@ -64,11 +64,38 @@ jekyll_compose:
   auto_open: true
 ```
 
-This seems to work well! Now onto defaults settings for each post.
+This seems to work well! Now, onto defaults settings for each post.
 
 ## Setting front matter defaults
 
+Front matter sits on the top of the markdown `.md` files and is the place where I can define all the settings for the post.
 
+* The first time I noticed after using the plugin is that it does not automatically add a `category` option. I really want to automate that, as it will help me with organization.
+
+* I think the idea of having a `_drafts` subdirectory to save in-progress posts, and then moving them to `_posts` when ready to publish, is really cool. So, I add provisions for doing that.
+
+* I will be adding pages for categories very soon. So, I take care of making those pages right now too.
+
+To accomplish this, I update the code block in my `_config.yml` file:
+
+```ruby
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      layout: single
+      category: draft
+    posts:
+      layout: single
+      category: draft
+    things:
+      description:
+      image:
+      category:
+      tags:
+```
+
+and it works!
 
 
 [jekyll-compose]: https://github.com/jekyll/jekyll-compose
