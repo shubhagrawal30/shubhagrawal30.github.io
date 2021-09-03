@@ -18,15 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Shubh's Personal Page
 email: shubh@caltech.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  A place for random thoughts and events.
+# description: >- # this means to ignore newlines until "baseurl:"
+#   A place for random thoughts and events.
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shubhagrawal30.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # linkedin_username: shubhagrawal30
 # github_username:  shubhagrawal30
@@ -35,13 +32,25 @@ url: "https://shubhagrawal30.github.io/" # the base hostname & protocol for your
 # Build settings
 # # theme: minima
 # theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-include-cache
 
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 minimal_mistakes_skin: "mint"
+locale: "en"
+title: "Shubh's Personal Page"
+subtitle: ""
+name: "Shubh Agrawal"
+description: ""
+url: "https://shubhagrawal30.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+repository: "shubhagrawal30/shubhagrawal30.github.io"
+teaser: /assets/images/.png
+logo: assets/images/.png
+breadcrumbs: true
+
 
 include: ["_pages"]
 
@@ -57,6 +66,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: ""

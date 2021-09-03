@@ -24,7 +24,10 @@ GEM
       http_parser.rb (~> 0.6.0)
     ethon (0.14.0)
       ffi (>= 1.15.0)
+<<<<<<< HEAD
     eventmachine (1.2.7)
+=======
+>>>>>>> 493b5e25625203ab60eca15c237d25b0b1bf0904
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
     faraday (1.4.2)
@@ -40,7 +43,10 @@ GEM
     faraday-excon (1.1.0)
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
+<<<<<<< HEAD
     ffi (1.15.1)
+=======
+>>>>>>> 493b5e25625203ab60eca15c237d25b0b1bf0904
     ffi (1.15.1-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
@@ -226,8 +232,11 @@ GEM
     minitest (5.14.4)
     multipart-post (2.1.1)
     nokogiri (1.11.7-x64-mingw32)
+<<<<<<< HEAD
       racc (~> 1.4)
     nokogiri (1.11.7-x86_64-darwin)
+=======
+>>>>>>> 493b5e25625203ab60eca15c237d25b0b1bf0904
       racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
@@ -267,7 +276,10 @@ GEM
       tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
+<<<<<<< HEAD
     unf_ext (0.0.7.7)
+=======
+>>>>>>> 493b5e25625203ab60eca15c237d25b0b1bf0904
     unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
     wdm (0.1.1)
